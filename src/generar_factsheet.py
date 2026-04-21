@@ -286,7 +286,7 @@ def _tabla_honorarios(honorarios, ancho, S):
     w_concepto = ancho * 0.46
     w_clase    = (ancho * 0.54) / n_clases
 
-    enc = [Paragraph("", S["celda"])]
+    enc = [Paragraph("Concepto", S["header_col"])]
     for cl in clases_activas:
         enc.append(Paragraph(f"CLASE {cl}", S["header_col"]))
     rows = [enc]
@@ -301,18 +301,17 @@ def _tabla_honorarios(honorarios, ancho, S):
         rows.append(fila)
 
     t = Table(rows, colWidths=[w_concepto] + [w_clase] * n_clases)
+    # Fondo gris en TODAS las filas de datos — sin depender de par/impar
     style = [
-        ("BACKGROUND", (1, 0), (-1, 0), AZUL_MEDIO),
-        ("TEXTCOLOR",  (1, 0), (-1, 0), BLANCO),
-        ("BOX",  (0, 0), (-1, -1), 0.5, GRIS_BORDE),
-        ("GRID", (0, 0), (-1, -1), 0.3, GRIS_BORDE),
+        ("BACKGROUND", (0, 0), (-1, 0), AZUL_MEDIO),
+        ("TEXTCOLOR",  (0, 0), (-1, 0), BLANCO),
+        ("BOX",        (0, 0), (-1, -1), 0.5, GRIS_BORDE),
+        ("GRID",       (0, 0), (-1, -1), 0.3, GRIS_BORDE),
         ("TOPPADDING",    (0, 0), (-1, -1), 2),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
         ("LEFTPADDING",   (0, 0), (-1, -1), 3),
+        ("BACKGROUND", (0, 1), (-1, -1), GRIS_CLARO),
     ]
-    for i in range(1, len(rows)):
-        if i % 2 == 0:
-            style.append(("BACKGROUND", (0, i), (-1, i), GRIS_CLARO))
     t.setStyle(TableStyle(style))
     return t
 
@@ -507,6 +506,7 @@ def construir_pdf(datos, rendimientos, composicion, tenencias,
          [Paragraph("(**) Incluye la retribución de los Agentes de la Colocación "
                     "de las cuotapartes.", S["small"])]],
         colWidths=[w_hon],
+        rowHeights=[None, None, None, None],
     )
     t_hon.setStyle(TableStyle([
         ("BACKGROUND",    (0, 0), (0, 0), AZUL_CNV),
@@ -514,7 +514,8 @@ def construir_pdf(datos, rendimientos, composicion, tenencias,
         ("LEFTPADDING",   (0, 1), (-1, -1), 3),
         ("RIGHTPADDING",  (0, 1), (-1, -1), 3),
         ("TOPPADDING",    (0, 0), (-1, -1), 2),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+        ("VALIGN",        (0, 0), (-1, -1), "TOP"),
     ]))
 
     fila_2 = Table([[t_comp, t_hon]], colWidths=[w_comp, w_hon])
