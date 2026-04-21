@@ -1,0 +1,1327 @@
+<?xml version="1.0" ?>
+<Informacion>
+	<Id>
+		<AANom>StoneX Asset Management S.A.</AANom>
+		<AAId>311</AAId>
+		<FdoNom>Gainvest Balanceado</FdoNom>
+		<FdoId>545</FdoId>
+		<MonFdoNom>Peso Argentina</MonFdoNom>
+		<MonFdoId>1</MonFdoId>
+		<FechaInfo>2026-03-31</FechaInfo>
+	</Id>
+	<TCambios>
+		<TCambio>
+			<TCambioCod>C</TCambioCod>
+			<MonONom>Dolar Estadounidense</MonONom>
+			<MonOTCod>C</MonOTCod>
+			<MonOCod>USD</MonOCod>
+			<MonOCant>723.59</MonOCant>
+			<MonDNom>Peso Argentina</MonDNom>
+			<MonDTCod>C</MonDTCod>
+			<MonDCod>ARS</MonDCod>
+			<MonDCant>1000000.00</MonDCant>
+		</TCambio>
+		<TCambio>
+			<TCambioCod>C</TCambioCod>
+			<MonONom>Dolar Estadounidense Billete</MonONom>
+			<MonOTCod>C</MonOTCod>
+			<MonOCod>USB</MonOCod>
+			<MonOCant>723.59</MonOCant>
+			<MonDNom>Peso Argentina</MonDNom>
+			<MonDTCod>C</MonDTCod>
+			<MonDCod>ARS</MonDCod>
+			<MonDCant>1000000.00</MonDCant>
+		</TCambio>
+		<TCambio>
+			<TCambioCod>V</TCambioCod>
+			<MonONom>Dolar Estadounidense</MonONom>
+			<MonOTCod>C</MonOTCod>
+			<MonOCod>USD</MonOCod>
+			<MonOCant>723.59</MonOCant>
+			<MonDNom>Peso Argentina</MonDNom>
+			<MonDTCod>C</MonDTCod>
+			<MonDCod>ARS</MonDCod>
+			<MonDCant>1000000.00</MonDCant>
+		</TCambio>
+		<TCambio>
+			<TCambioCod>V</TCambioCod>
+			<MonONom>Dolar Estadounidense Billete</MonONom>
+			<MonOTCod>C</MonOTCod>
+			<MonOCod>USB</MonOCod>
+			<MonOCant>723.59</MonOCant>
+			<MonDNom>Peso Argentina</MonDNom>
+			<MonDTCod>C</MonDTCod>
+			<MonDCod>ARS</MonDCod>
+			<MonDCant>1000000.00</MonDCant>
+		</TCambio>
+	</TCambios>
+	<VDiarios>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase A</ClaseNom>
+			<ClaseId>1103</ClaseId>
+			<MonNomCl>Peso Argentina</MonNomCl>
+			<MonIdCl>1</MonIdCl>
+			<VCP>553733.2260</VCP>
+			<CCP>5455171.22</CCP>
+			<CCPT/>
+			<PN>3020709560.17</PN>
+			<PNMFdo>3020709560.17</PNMFdo>
+			<VCPr>553733.2260</VCPr>
+			<CSus>69711.47</CSus>
+			<CRes>1629.22</CRes>
+			<RenImpD>0.6751</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase B</ClaseNom>
+			<ClaseId>2635</ClaseId>
+			<MonNomCl>Peso Argentina</MonNomCl>
+			<MonIdCl>1</MonIdCl>
+			<VCP>553734.7210</VCP>
+			<CCP>15784136.87</CCP>
+			<CCPT/>
+			<PN>8740224632.26</PN>
+			<PNMFdo>8740224632.26</PNMFdo>
+			<VCPr>553734.7210</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.6751</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase C</ClaseNom>
+			<ClaseId>2636</ClaseId>
+			<MonNomCl>Peso Argentina</MonNomCl>
+			<MonIdCl>1</MonIdCl>
+			<VCP>1000.0000</VCP>
+			<CCP>0.00</CCP>
+			<CCPT/>
+			<PN>0.00</PN>
+			<PNMFdo>0.00</PNMFdo>
+			<VCPr>1000.0000</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.0000</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase D</ClaseNom>
+			<ClaseId>2637</ClaseId>
+			<MonNomCl>Dolar Estadounidense</MonNomCl>
+			<MonIdCl>2</MonIdCl>
+			<VCP>0.7240</VCP>
+			<CCP>0.00</CCP>
+			<CCPT/>
+			<PN>0.00</PN>
+			<PNMFdo>0.00</PNMFdo>
+			<VCPr>1000.0000</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.0000</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase E</ClaseNom>
+			<ClaseId>2638</ClaseId>
+			<MonNomCl>Dolar Estadounidense</MonNomCl>
+			<MonIdCl>2</MonIdCl>
+			<VCP>2.2230</VCP>
+			<CCP>0.00</CCP>
+			<CCPT/>
+			<PN>0.00</PN>
+			<PNMFdo>0.00</PNMFdo>
+			<VCPr>3072.8090</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.0000</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase F</ClaseNom>
+			<ClaseId>2639</ClaseId>
+			<MonNomCl>Dolar Estadounidense</MonNomCl>
+			<MonIdCl>2</MonIdCl>
+			<VCP>2.2310</VCP>
+			<CCP>0.00</CCP>
+			<CCPT/>
+			<PN>0.00</PN>
+			<PNMFdo>0.00</PNMFdo>
+			<VCPr>3082.5810</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.0000</RenImpD>
+		</VDiario>
+		<VDiario>
+			<ClaseNom>Gainvest Balanceado - Clase Ley N° 27.743</ClaseNom>
+			<ClaseId>4785</ClaseId>
+			<MonNomCl>Peso Argentina</MonNomCl>
+			<MonIdCl>1</MonIdCl>
+			<VCP>1530.2200</VCP>
+			<CCP>0.00</CCP>
+			<CCPT/>
+			<PN>0.00</PN>
+			<PNMFdo>0.00</PNMFdo>
+			<VCPr>1530.2200</VCPr>
+			<CSus>0.00</CSus>
+			<CRes>0.00</CRes>
+			<RenImpD>0.0000</RenImpD>
+		</VDiario>
+		<PNT>
+			<PNTMFdo>11760934192.57</PNTMFdo>
+		</PNT>
+	</VDiarios>
+	<CarterasInversiones>
+		<Activos>
+			<Activo>
+				<Nro>1</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer TX26</ActNom>
+				<ActNomLa>Bono Boncer TX26</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>13.2100</Pre>
+				<Cant>50000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>660500000.00</MtoMAct>
+				<MtoMFdo>660500000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2020-09-18</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2027-02-09</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TX26</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>ARARGE3209W8</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>Caja de Valores</ActTicEnt>
+						<ActTic>5925</ActTic>
+						<ActTTicId>CV</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>2</Nro>
+				<AA>N</AA>
+				<Cl>Vehiculos Inversion Colectiva</Cl>
+				<ClId>14</ClId>
+				<SCl>Fondos Comunes de Inversion</SCl>
+				<SClId>29</SClId>
+				<ClCnv>Vehiculos Inversion Colectiva</ClCnv>
+				<ClCnvId>6</ClCnvId>
+				<SClCnv>Fondos Comunes de Inversion</SClCnv>
+				<SClCnvId>23</SClCnvId>
+				<ActNom>FCI Novus Liquidez Fondo de Dinero - Clase B</ActNom>
+				<ActNomLa>FCI Novus Liquidez Fondo de Dinero - Clase B</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>791.7255</Pre>
+				<Cant>663990.82400000</Cant>
+				<CantCot>100.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>5256984.67</MtoMAct>
+				<MtoMFdo>5256984.67</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Banco de Valores S.A.</EntNom>
+						<EntTic>65</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Bancos</ActNom>
+						<ActNomId>2</ActNomId>
+					</Entidad>
+					<Entidad>
+						<TipoEntNom>Entidad Organizadora</TipoEntNom>
+						<TipoEntId>14</TipoEntId>
+						<EntNom>Novus Asset Management S.A.</EntNom>
+						<EntTic>2887</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Fdos Com de Inv</ActNom>
+						<ActNomId>13</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2021-12-03</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Cafci</ActTicEnt>
+						<ActTic>03593</ActTic>
+						<ActTTicId>M</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>3</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer TZX26</ActNom>
+				<ActNomLa>Bono Boncer TZX26</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>3.6820</Pre>
+				<Cant>575000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>2117150000.00</MtoMAct>
+				<MtoMFdo>2117150000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2024-02-01</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2026-06-30</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Caja de Valores</ActTicEnt>
+						<ActTic>9240</ActTic>
+						<ActTTicId>CV</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TZX26</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0643350728</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>4</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer TZXD6</ActNom>
+				<ActNomLa>Bono Boncer TZXD6</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>2.6725</Pre>
+				<Cant>1100000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>2939750000.00</MtoMAct>
+				<MtoMFdo>2939750000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2024-03-01</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2026-12-15</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TZXD6</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>Caja de Valores</ActTicEnt>
+						<ActTic>9249</ActTic>
+						<ActTTicId>CV</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0465304779</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>5</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer 2027 TZXM7</ActNom>
+				<ActNomLa>Bono Boncer 2027 TZXM7</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>1.9855</Pre>
+				<Cant>1275000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>2531512500.00</MtoMAct>
+				<MtoMFdo>2531512500.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2024-05-20</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2027-03-31</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TZXM7</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>Caja de Valores</ActTicEnt>
+						<ActTic>9264</ActTic>
+						<ActTTicId>CV</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0465885959</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>6</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer TZXO6</ActNom>
+				<ActNomLa>Bono Boncer TZXO6</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>1.5195</Pre>
+				<Cant>500000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>759750000.00</MtoMAct>
+				<MtoMFdo>759750000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2024-10-31</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2026-10-30</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TZXO6</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0881212424</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>7</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Lecer X30N6</ActNom>
+				<ActNomLa>Lecer X30N6</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>11.0235</Pre>
+				<Cant>2400000000.00000000</Cant>
+				<CantCot>10.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>2645640000.00</MtoMAct>
+				<MtoMFdo>2645640000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2026-02-04</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2026-11-30</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>X30N6</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0933792183</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>8</Nro>
+				<AA>N</AA>
+				<Cl>Titulos de Deuda</Cl>
+				<ClId>12</ClId>
+				<SCl>Titulos Publicos</SCl>
+				<SClId>42</SClId>
+				<ClCnv>Titulos de Deuda</ClCnv>
+				<ClCnvId>5</ClCnvId>
+				<SClCnv>Titulos Publicos</SClCnv>
+				<SClCnvId>19</SClCnvId>
+				<ActNom>Bono Boncer TZXS8</ActNom>
+				<ActNomLa>Bono Boncer TZXS8</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>Bolsa de Comercio Buenos Aires</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>BC</MerCod>
+				<Pre>0.8375</Pre>
+				<Cant>1000000000.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>837500000.00</MtoMAct>
+				<MtoMFdo>837500000.00</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem/>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista/>
+				<IntDevCtasVistaCap/>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML/>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Estado Argentino</EntNom>
+						<EntTic>520</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Estado nacional</ActNom>
+						<ActNomId>47</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom>Emision del Activo</TipoFechaNom>
+						<FechaDato>2026-03-31</FechaDato>
+						<TipoFechaId>1</TipoFechaId>
+					</Fecha>
+					<Fecha>
+						<TipoFechaNom>Vencimiento del Activo</TipoFechaNom>
+						<FechaDato>2028-09-29</FechaDato>
+						<TipoFechaId>2</TipoFechaId>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Bolsa de Comercio Bs As</ActTicEnt>
+						<ActTic>TZXS8</ActTic>
+						<ActTTicId>B</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>ISIN</ActTicEnt>
+						<ActTic>AR0667778010</ActTic>
+						<ActTTicId>I</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+					<Ticker>
+						<ActTicEnt>Caja de Valores</ActTicEnt>
+						<ActTic>9392</ActTic>
+						<ActTTicId>CV</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>9</Nro>
+				<AA>N</AA>
+				<Cl>Disponibilidades</Cl>
+				<ClId>11</ClId>
+				<SCl>Cuenta Corriente</SCl>
+				<SClId>36</SClId>
+				<ClCnv>Disponibilidades</ClCnv>
+				<ClCnvId>2</ClCnvId>
+				<SClCnv>Cuenta Corriente</SClCnv>
+				<SClCnvId>7</SClCnvId>
+				<ActNom>Cta Cte $ Rem Bco Comafi</ActNom>
+				<ActNomLa>Cuenta Corriente Pesos Rem Banco Comafi</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Peso Argentina</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>ARS</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>No Aplicable</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>NA</MerCod>
+				<Pre>0.0000</Pre>
+				<Cant>1.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>N</TCCod>
+				<MtoMAct>98985590.99</MtoMAct>
+				<MtoMFdo>98985590.99</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem>S</CtaCteRem>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista>0.00</IntDevCtasVista>
+				<IntDevCtasVistaCap>0.00</IntDevCtasVistaCap>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML>N</ML>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Banco Comafi S.A.</EntNom>
+						<EntTic>115</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Bancos</ActNom>
+						<ActNomId>2</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom/>
+						<FechaDato/>
+						<TipoFechaId/>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Cafci</ActTicEnt>
+						<ActTic>CCPR00299</ActTic>
+						<ActTTicId>M</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>10</Nro>
+				<AA>N</AA>
+				<Cl>Disponibilidades</Cl>
+				<ClId>11</ClId>
+				<SCl>Cuenta Corriente</SCl>
+				<SClId>36</SClId>
+				<ClCnv>Disponibilidades</ClCnv>
+				<ClCnvId>2</ClCnvId>
+				<SClCnv>Cuenta Corriente</SClCnv>
+				<SClCnvId>7</SClCnvId>
+				<ActNom>Cta Cte U$S Bank Amer NY</ActNom>
+				<ActNomLa>Cuenta Corriente Dolares Bank Of America NY</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Estados Unidos</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>US</PaisNomEmiCod>
+				<PaisNomNeg>Estados Unidos</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>US</PaisNomNegCod>
+				<MonActNom>Dolar Estadounidense</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>USD</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>No Aplicable</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>NA</MerCod>
+				<Pre>0.0000</Pre>
+				<Cant>1.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>658.37</MtoMAct>
+				<MtoMFdo>909867.34</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem>S</CtaCteRem>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista>0.20</IntDevCtasVista>
+				<IntDevCtasVistaCap>0.20</IntDevCtasVistaCap>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML>N</ML>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Bank Of America New York</EntNom>
+						<EntTic>1228</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Estados Unidos</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>US</PaisCod>
+						<ActNom>Bancos</ActNom>
+						<ActNomId>2</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom/>
+						<FechaDato/>
+						<TipoFechaId/>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Cafci</ActTicEnt>
+						<ActTic>CCUSD00006</ActTic>
+						<ActTTicId>M</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+			<Activo>
+				<Nro>11</Nro>
+				<AA>N</AA>
+				<Cl>Disponibilidades</Cl>
+				<ClId>11</ClId>
+				<SCl>Cuenta Corriente</SCl>
+				<SClId>36</SClId>
+				<ClCnv>Disponibilidades</ClCnv>
+				<ClCnvId>2</ClCnvId>
+				<SClCnv>Cuenta Corriente</SClCnv>
+				<SClCnvId>7</SClCnvId>
+				<ActNom>Cta Cte U$S Bco Comafi</ActNom>
+				<ActNomLa>Cuenta Corriente Dolares Banco Comafi</ActNomLa>
+				<CodImpAct/>
+				<NomClImp/>
+				<NomSClImp/>
+				<NomImpAct/>
+				<PaisNomEmi>Argentina</PaisNomEmi>
+				<PaisNomEmiTCod>C</PaisNomEmiTCod>
+				<PaisNomEmiCod>AR</PaisNomEmiCod>
+				<PaisNomNeg>Argentina</PaisNomNeg>
+				<PaisNomNegTCod>C</PaisNomNegTCod>
+				<PaisNomNegCod>AR</PaisNomNegCod>
+				<MonActNom>Dolar Estadounidense Billete</MonActNom>
+				<MonActTCod>C</MonActTCod>
+				<MonActCod>USB</MonActCod>
+				<Pitny>N</Pitny>
+				<RegPy>N</RegPy>
+				<MerNom>No Aplicable</MerNom>
+				<MerTCod>C</MerTCod>
+				<MerCod>NA</MerCod>
+				<Pre>0.0000</Pre>
+				<Cant>1.00000000</Cant>
+				<CantCot>1.00000000</CantCot>
+				<TCCod>C</TCCod>
+				<MtoMAct>18.44</MtoMAct>
+				<MtoMFdo>25484.08</MtoMFdo>
+				<MtoAc/>
+				<Plazo>0</Plazo>
+				<TNA/>
+				<TTasa/>
+				<PFTra/>
+				<PFPre/>
+				<PFPreInm/>
+				<CtaCteRem>S</CtaCteRem>
+				<ClaseTD/>
+				<TipoTD/>
+				<AmbitoTD/>
+				<MontoEmiTD/>
+				<Clasif/>
+				<DOPEj/>
+				<DOSub/>
+				<IntDevCtasVista>0.00</IntDevCtasVista>
+				<IntDevCtasVistaCap>0.00</IntDevCtasVistaCap>
+				<ASNom/>
+				<ASTic/>
+				<ASTTic/>
+				<ASCant/>
+				<ASCantRDD/>
+				<ML>N</ML>
+				<Entidades>
+					<Entidad>
+						<TipoEntNom>Entidad Emisora</TipoEntNom>
+						<TipoEntId>13</TipoEntId>
+						<EntNom>Banco Comafi S.A.</EntNom>
+						<EntTic>115</EntTic>
+						<EntTTic>M</EntTTic>
+						<PaisNom>Argentina</PaisNom>
+						<PaisTCod>C</PaisTCod>
+						<PaisCod>AR</PaisCod>
+						<ActNom>Bancos</ActNom>
+						<ActNomId>2</ActNomId>
+					</Entidad>
+				</Entidades>
+				<Fechas>
+					<Fecha>
+						<TipoFechaNom/>
+						<FechaDato/>
+						<TipoFechaId/>
+					</Fecha>
+				</Fechas>
+				<Tickers>
+					<Ticker>
+						<ActTicEnt>Cafci</ActTicEnt>
+						<ActTic>CCD00299</ActTic>
+						<ActTTicId>M</ActTTicId>
+						<ActMonCotId/>
+						<ActMerCotId/>
+					</Ticker>
+				</Tickers>
+			</Activo>
+		</Activos>
+		<ActSubPpals>
+			<ActSubPpal>N</ActSubPpal>
+		</ActSubPpals>
+		<Durations>
+			<Duration>1.00</Duration>
+		</Durations>
+		<CalcCP>
+			<ActTotal>14741219210.68</ActTotal>
+			<CredxSus>0.00</CredxSus>
+			<CredxVtasLiqNorm>2137475077.33</CredxVtasLiqNorm>
+			<CredxVtasOP>0.00</CredxVtasOP>
+			<CredOtros>164789.68</CredOtros>
+			<DivRentas>0.00</DivRentas>
+			<ActOtros>12603579343.67</ActOtros>
+			<PasTotal>2980285018.11</PasTotal>
+			<DeuxCompLiqNorm>2947074800.00</DeuxCompLiqNorm>
+			<DeuxCompOP>0.00</DeuxCompOP>
+			<DeuxRes>902152.58</DeuxRes>
+			<DeuOtras>0.00</DeuOtras>
+			<Prov>26878178.73</Prov>
+			<PasOtros>5429886.80</PasOtros>
+			<PNTotal>11760934192.57</PNTotal>
+		</CalcCP>
+	</CarterasInversiones>
+</Informacion>

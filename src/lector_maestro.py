@@ -67,9 +67,9 @@ def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
     for _, row in df_rend[mask_r].iterrows():
         rendimientos.append([
             row.get("periodo", ""),
-            row.get("clase_a", "") or "",
-            row.get("clase_b", "") or "",
-            row.get("clase_c", "") or "",
+            _formatear_pct(row.get("clase_a", "")),
+            _formatear_pct(row.get("clase_b", "")),
+            _formatear_pct(row.get("clase_c", "")),
         ])
 
     # ── HONORARIOS ────────────────────────────────────────────────────────────
@@ -84,10 +84,18 @@ def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
     for _, row in df_hon[mask_h].iterrows():
         honorarios.append([
             row.get("concepto", ""),
-            row.get("clase_a", "") or "",
-            row.get("clase_b", "") or "",
-            row.get("clase_c", "") or "",
+            _formatear_pct(row.get("clase_a", "")),
+            _formatear_pct(row.get("clase_b", "")),
+            _formatear_pct(row.get("clase_c", "")),
         ])
+
+    # Fecha de inicio: convertir datetime a string legible
+    if "fecha_inicio_operaciones" in fila:
+        val = fila["fecha_inicio_operaciones"]
+        try:
+            fila["fecha_inicio_operaciones"] = pd.to_datetime(val).strftime("%d/%m/%Y")
+        except Exception:
+            fila["fecha_inicio_operaciones"] = str(val)
 
     return {
         "datos":        fila,
@@ -166,6 +174,26 @@ def _buscar_columna_clase(columnas, fdo_key: str, clase_preferida: str) -> str |
                 return col
 
     return None
+
+
+
+def _formatear_pct(val) -> str:
+    """
+    Convierte un valor a string con % para mostrar en la ficha.
+    Si ya tiene %, lo deja como está. Si es número, agrega %.
+    Si es NaN o vacío, retorna cadena vacía.
+    """
+    if val is None:
+        return ""
+    s = str(val).strip()
+    if s in ("", "nan", "None", "NaN"):
+        return ""
+    if "%" in s:
+        return s
+    try:
+        return f"{float(s):.2f}%"
+    except ValueError:
+        return s
 
 
 def listar_fondos(path_excel: str) -> list[str]:
