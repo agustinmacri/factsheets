@@ -27,6 +27,27 @@ def normalizar_nombre(nombre: str) -> str:
     return nombre
 
 
+def _leer_hoja(xl, sheet_name: str) -> pd.DataFrame:
+    """
+    Lee una hoja del Excel detectando automáticamente dónde está el encabezado.
+    Busca la fila que contiene 'fdo_nombre' como primera columna.
+    """
+    df_raw = pd.read_excel(xl, sheet_name=sheet_name, header=None)
+    # Buscar fila del encabezado
+    header_row = None
+    for i, row in df_raw.iterrows():
+        if str(row.iloc[0]).strip().lower() == "fdo_nombre":
+            header_row = i
+            break
+    if header_row is None:
+        raise ValueError(f"No se encontró encabezado 'fdo_nombre' en hoja '{sheet_name}'")
+    df = pd.read_excel(xl, sheet_name=sheet_name, header=header_row)
+    df.columns = [str(c).strip() for c in df.columns]
+    # Eliminar filas donde fdo_nombre es NaN o texto descriptivo
+    df = df[df["fdo_nombre"].notna()].reset_index(drop=True)
+    return df
+
+
 def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
     """
     Lee la configuración de un fondo desde el Excel maestro.
@@ -38,10 +59,7 @@ def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
     xl = pd.ExcelFile(path_excel)
 
     # ── DATOS_FONDO ───────────────────────────────────────────────────────────
-    df_datos = pd.read_excel(xl, sheet_name="DATOS_FONDO", header=2)
-    # Fila 0 en el df es la fila de descripciones (índice 3 en Excel) — saltarla
-    df_datos = df_datos.iloc[1:].reset_index(drop=True)
-    df_datos.columns = [str(c).strip() for c in df_datos.columns]
+    df_datos = _leer_hoja(xl, "DATOS_FONDO")
 
     # Buscar la fila del fondo
     mask = df_datos["fdo_nombre"].apply(
@@ -56,9 +74,7 @@ def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
     fila = df_datos[mask].iloc[0].to_dict()
 
     # ── RENDIMIENTOS ──────────────────────────────────────────────────────────
-    df_rend = pd.read_excel(xl, sheet_name="RENDIMIENTOS", header=2)
-    df_rend = df_rend.iloc[1:].reset_index(drop=True)
-    df_rend.columns = [str(c).strip() for c in df_rend.columns]
+    df_rend = _leer_hoja(xl, "RENDIMIENTOS")
 
     mask_r = df_rend["fdo_nombre"].apply(
         lambda x: normalizar_nombre(str(x)) == fdo_key
@@ -73,9 +89,7 @@ def leer_datos_fondo(path_excel: str, fdo_nombre: str) -> dict:
         ])
 
     # ── HONORARIOS ────────────────────────────────────────────────────────────
-    df_hon = pd.read_excel(xl, sheet_name="HONORARIOS", header=2)
-    df_hon = df_hon.iloc[1:].reset_index(drop=True)
-    df_hon.columns = [str(c).strip() for c in df_hon.columns]
+    df_hon = _leer_hoja(xl, "HONORARIOS")
 
     mask_h = df_hon["fdo_nombre"].apply(
         lambda x: normalizar_nombre(str(x)) == fdo_key
